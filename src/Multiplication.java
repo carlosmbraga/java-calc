@@ -1,8 +1,8 @@
 
-public class Multiplication implements Strategy {
+public class Multiplication implements Operation {
 
-	public double doOperation(double num1, double num2) {
+	@Override
+	public double execute(double num1, double num2) {
 		return num1 * num2;
-
 	}
 }

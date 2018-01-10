@@ -1,9 +1,8 @@
 
-public class Subtraction implements Strategy {
+public class Subtraction implements Operation {
 
-	public double doOperation(double num1, double num2) {
+	@Override
+	public double execute(double num1, double num2) {
 		return num1 - num2;
-
-
 	}
 }
